@@ -1,0 +1,208 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #131314;
+}
+
+
+.menu h1{
+    color: #fff;
+    font-size: 20px;
+}
+
+.inicio{
+    padding: 20px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu a{
+    font-size: 19px;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.menu a:hover{
+    color: orange;
+}
+
+.maincorp h1{
+    color: #fff;
+}
+
+.maincorp p{
+    color: #ccc;
+    font-size: 26px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+}
+
+.maincorp{
+    flex: 1;
+    min-width: 300px;
+}
+
+.img{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 300px;
+}
+
+.img img{
+    max-width: 100%;
+    height: auto;
+    padding-left: 200px;
+}
+
+
+.corpsquare {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.css, .html {
+ background-color: #262626;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#css, #html{
+  font-size: 40px;
+  color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p{
+  color: #ccc;
+  font-size: 18px;
+}
+
+#js{
+  color: orange;
+}
+
+.redesociais{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fundogit,.fundoinsta,.fundoyt{
+  background-color: #262626;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.youtube, .Github, .instagram {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  color: orange;
+  padding: 30px;
+}
+
+.tituloredesocial{
+  font-size: 25px;
+  font-weight: 500;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulohtmlcss{
+  font-size: 25px;
+  font-weight: 500;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   text-decoration: underline orange;
+}
+
+#linkyoutube i{
+  text-decoration: none;
+  color: orange;
+  cursor: pointer;
+}
+
+#linkinstagram i{
+  text-decoration: none;
+  color: orange;
+  cursor: pointer;
+}
+
+#linkgithub i{
+  text-decoration: none;
+  color: orange;
+  cursor: pointer;
+}
+
+.curiosidadepara{
+  color: #ccc;
+}
+
+.curiosidade h1{
+  color: #fff;
+  font-weight: 700;
+  text-decoration: underline orange;
+}
+
+.footermenu{
+  background-color: #131314;
+  padding-top: 3px;
+  padding-left: 3px;
+}
+
+.footerh1{
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 6x;
+
+}
+.footerlinkh1{
+  text-decoration: none;
+  color: #fff;
+}
+
+
+#stronghtmlcss{
+  color: orange;
+  flex-wrap: wrap;
+}
